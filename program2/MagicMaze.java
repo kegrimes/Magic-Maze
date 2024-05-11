@@ -35,7 +35,7 @@
 	 //the number of rows and columns are found from the agrs[]
 	 public char[][] readMaze(String mazeName) throws IOException{
 		 
-		 char newLine = '0';
+		 //char newLine = '0';
 		 Scanner scan = new Scanner(new File(mazeName));
 		 
 		 for(int r = 0; scan.hasNextLine() && r < rowNum; r++){
@@ -49,6 +49,7 @@
 				}
 			}
 		}
+		 scan.close();
 		 
 		 return maze;
 	 }
