@@ -13,6 +13,6 @@ public class MagicMazeDriver
         if(maze.solveMagicMaze())
 			System.out.println(args[0] + " passed!");
 		else
-			System.out.println(args[0] + " did not passed!");
+			System.out.println(args[0] + " did not pass!");
     }
 }
