@@ -17,6 +17,9 @@ This file contains main and will send the necessary information, the maze textfi
 
 *NOTE: You can test only one maze at a time.
 
+### Data Structure:
+This algorithm uses a hash map to keep track of the locations of the teleport digits. It's key is an integer which represents the teleport digit and the value is an array of integers where index 0 is the number of rows and index 1 is the number of columns.
+
 ### Terminal Commands:
 ```
 javac MagicMazeDriver.java //compile
@@ -38,4 +41,3 @@ Size of mazes: row x column
 If a maze passed, then the user will see `maze#.txt passed!` printed to the terminal screen.  
 
 If a maze does not pass, then the user see `maze#.txt did not pass!` printed to the terminal screen.
-
