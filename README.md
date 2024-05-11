@@ -22,8 +22,8 @@ This file contains main and will send the necessary information, the maze textfi
 javac MagicMazeDriver.java //compile
 java  MagicMazeDriver maze4.txt 15 20 //run
 ```
-number of rows = 15
-number of columns = 20
+number of rows = 15  
+number of columns = 20  
 
 Size of mazes:
 - maze1.txt: 11x15
