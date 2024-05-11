@@ -3,9 +3,6 @@
  *  Programming Assignment 2 Driver
  *  Spring 2023
  */
- 
-import java.io.File;
-import java.util.Scanner;
 
 public class MagicMazeDriver 
 {   
